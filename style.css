@@ -1,0 +1,14 @@
+.navbar {
+  margin-bottom: 20px;
+}
+.logo {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-decoration: underline;
+  font-size: 30px;
+  font-weight: 100;
+  letter-spacing: 2px;
+}
+.logo:hover {
+  text-decoration: underline;
+  cursor: default;
+}
