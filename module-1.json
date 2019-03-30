@@ -1,33 +1,62 @@
 [
   {
     "Name": "Undergraduate",
-    "Course":"Web Development",
-    "Module": {
-      "Learning_outcomes":["LO1", "LO2"],
-      "Assignment":["CW1", "CW2"],
-      "Volume":["1000 words", "4000 words"],
-      "weights":["20%", "80%"]
-    }
+    "Course": "Biology",
+    "Module": [
+      {
+        "Module Name": "Variation, Evolution and Heredity",
+        "Module Code": "SCI1106",
+        "Assignment": ["CW1", "EX"],
+        "Volume": ["2000 words", "40% Pass"],
+        "weights": ["60%", "40%"]
+      },
+      {
+        "Module Name": "Human Body Systems",
+        "Module Code": "SCI1114",
+        "Assignment": ["CW1", "EX"],
+        "Volume": ["1000 words", "40% Pass"],
+        "weights": ["50%", "50%"]
+      }
+    ]
   },
   {
-    "Name": "Post-Graduate",
-    "Course":"Big Data",
-    "Module": {
-    "Learning_outcomes":["LO1", "LO2"],
-    "Assignment":["CW1", "CW2"],
-    "Volume":["1000 words", "4000 words"],
-    "weights":["20%", "80%"]
-    }
+    "Name": "Undergraduate",
+    "Course": "Creative Writing",
+    "Module": [
+      {
+        "Module Name": "Building the World",
+        "Module Code": "WRI1014",
+        "Assignment": ["CW"],
+        "Volume": ["2000 words"],
+        "weights": ["100%"]
+      },
+      {
+        "Module Name": "Writing Short Stories",
+        "Module Code": "WRI2024",
+        "Assignment": ["CW1"],
+        "Volume": ["1000 words"],
+        "weights": ["100%"]
+      }
+    ]
   },
   {
-    "Name": "Research",
-    "Course":"Data Mining",
-    "Module": {
-      "Learning_outcomes":["LO1", "LO2"],
-      "Assignment":["CW1", "CW2"],
-      "Volume":["1000 words", "4000 words"],
-      "weights":["20%", "80%"]
-    }
+    "Name": "Undergraduate",
+    "Course": "Children and Young People's Learning and Development",
+    "Module": [
+      {
+        "Module Name": "Planning for Research",
+        "Module Code": "TLD2003",
+        "Assignment": ["CW"],
+        "Volume": ["2000 words"],
+        "weights": ["100%"]
+      },
+      {
+        "Module Name": "Personal Achievements and Career Planning",
+        "Module Code": "CYP2010",
+        "Assignment": ["CW1"],
+        "Volume": ["1000 words"],
+        "weights": ["100%"]
+      }
+    ]
   }
-  
 ]
