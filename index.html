@@ -2,7 +2,6 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
     <title>Web App 2</title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -10,28 +9,21 @@
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-      crossorigin="anonymous"
-    />
+      crossorigin="anonymous"/>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <nav
-        class="nav-bar navbar navbar-expand-lg navbar-dark" style='background-color: #671e75';
-      >
-        <a class="logo navbar-brand" href="/">
-          Edge Hill University
-        </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon" />
-        </button>
-
+  <nav class="nav-bar navbar navbar-expand-lg navbar-dark" style='background-color: #671e75'>
+    <a class="logo navbar-brand" href="/">Edge Hill University</a>
+    <button
+      class="navbar-toggler"
+      type="button" 
+      data-toggle="collapse"
+      data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon" />
+    </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item">
@@ -53,13 +45,14 @@
         </div>
       </nav>
   <body>
-    <header>
-      <h1>Web Application Development Course Work-2</h1>
-      <button id="btn">Fetch information about the modules</button>
-    </header>
-
-    <div id="module-info"></div>
-
+      <div class="container">
+          <div class="card">
+            <div class="card-header">Course and Module Information</div>
+            <div class="card-body">
+              <div id="module-info" />
+            </div>
+          </div>
+        </div>
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
       integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
