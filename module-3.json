@@ -2,19 +2,19 @@
   {
     "Name": "Research",
     "Course": "Data Mining",
-    "Course Length": "1 Year",
+    "CourseLength": "1 Year",
     "Department": "Graduate School"
   },
   {
     "Name": "Research",
     "Course": "Psycology in Business",
-    "Course Length": "1 Year",
+    "CourseLength": "1 Year",
     "Department": "Graduate School"
   },
   {
     "Name": "Research",
     "Course": "Big Data Analysis",
-    "Course Length": "1 Year",
+    "CourseLength": "1 Year",
     "Department": "Graduate School"
   }
 ]

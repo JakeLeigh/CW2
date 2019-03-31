@@ -4,15 +4,15 @@
     "Course": "Biology",
     "Module": [
       {
-        "Module Name": "Variation, Evolution and Heredity",
-        "Module Code": "SCI1106",
+        "ModuleName": "Variation, Evolution and Heredity",
+        "ModuleCode": "SCI1106",
         "Assignment": ["CW1", "EX"],
         "Volume": ["2000 words", "40% Pass"],
         "weights": ["60%", "40%"]
       },
       {
-        "Module Name": "Human Body Systems",
-        "Module Code": "SCI1114",
+        "ModuleName": "Human Body Systems",
+        "ModuleCode": "SCI1114",
         "Assignment": ["CW1", "EX"],
         "Volume": ["1000 words", "40% Pass"],
         "weights": ["50%", "50%"]
@@ -24,15 +24,15 @@
     "Course": "Creative Writing",
     "Module": [
       {
-        "Module Name": "Building the World",
-        "Module Code": "WRI1014",
+        "ModuleName": "Building the World",
+        "ModuleCode": "WRI1014",
         "Assignment": ["CW"],
         "Volume": ["2000 words"],
         "weights": ["100%"]
       },
       {
-        "Module Name": "Writing Short Stories",
-        "Module Code": "WRI2024",
+        "ModuleName": "Writing Short Stories",
+        "ModuleCode": "WRI2024",
         "Assignment": ["CW1"],
         "Volume": ["1000 words"],
         "weights": ["100%"]
@@ -44,15 +44,15 @@
     "Course": "Children and Young People's Learning and Development",
     "Module": [
       {
-        "Module Name": "Planning for Research",
-        "Module Code": "TLD2003",
+        "ModuleName": "Planning for Research",
+        "ModuleCode": "TLD2003",
         "Assignment": ["CW"],
         "Volume": ["2000 words"],
         "weights": ["100%"]
       },
       {
-        "Module Name": "Personal Achievements and Career Planning",
-        "Module Code": "CYP2010",
+        "ModuleName": "Personal Achievements and Career Planning",
+        "ModuleCode": "CYP2010",
         "Assignment": ["CW1"],
         "Volume": ["1000 words"],
         "weights": ["100%"]
