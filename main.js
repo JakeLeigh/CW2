@@ -1,39 +1,30 @@
-var moduleContainer = document.getElementById("module-info");
 let undergradBtn = document.querySelector("#undergrad");
 let postgradBtn = document.querySelector("#postgrad");
 let researchBtn = document.querySelector("#research");
+let table = document.querySelector("#table");
 
 undergradBtn.addEventListener("click", function() {
   axios
     .get("https://raw.githubusercontent.com/JakeLeigh/CW2/master/module-1.json")
     .then(response => {
-      let undergradData = response.data;
-      renderHTML(undergradData);
+      let undergradCourses = response.data;
+      renderCourses(undergradCourses);
+      let undergradModules = response.data.Module[1];
+      console.log(undergradModules);
+      // renderModules(undergradModules);
     })
     .catch(err => console.log(err));
 });
 
-// undergradBtn.addEventListener("click", function() {
-//   var ourRequest = new XMLHttpRequest();
-//   ourRequest.open(
-//     "GET",
-//     "https://raw.githubusercontent.com/JakeLeigh/CW2/master/module-1.json"
-//   );
-//   ourRequest.onload = function() {
-//     //console.log(ourRequest.responseText);
-//     var ourData = JSON.parse(ourRequest);
-//     renderHTML(ourData);
-//     console.log(ourData);
-//   };
-// });
-
-function renderHTML(courses) {
-  var htmlString = "";
-
+function renderCourses(courses) {
   courses.forEach(course => {
-    console.log(course);
-    htmlString += "<p>" + course.Course + "</p>";
+    let row = table.insertRow(1);
+    let courseName = row.insertCell(0);
+    courseName.innerHTML = course.Course;
   });
-
-  moduleContainer.insertAdjacentHTML("beforeend", htmlString);
 }
+// function renderModules(modules) {
+//   modules.forEach(module => {
+//     console.log(module);
+//   });
+// }
