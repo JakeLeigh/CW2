@@ -2,6 +2,7 @@ let undergradBtn = document.querySelector("#undergrad");
 let postgradBtn = document.querySelector("#postgrad");
 let researchBtn = document.querySelector("#research");
 let table = document.querySelector("#table");
+let counter = 1;
 
 undergradBtn.addEventListener("click", function() {
   axios
@@ -11,6 +12,10 @@ undergradBtn.addEventListener("click", function() {
       renderHTML(undergradCourses);
     })
     .catch(err => console.log(err));
+  counter++;
+  if (counter > 1) {
+    undergradBtn.disabled = true;
+  }
 });
 
 function renderHTML(courses) {
