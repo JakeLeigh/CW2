@@ -6,16 +6,16 @@
       {
         "ModuleName": "Emerging Technologies",
         "ModuleCode": "CIS4116",
-        "Assignment": ["CW1", "PR"],
+        "Assignment": ["CW", "PR"],
         "Volume": ["2000 words", "40% Pass"],
-        "weights": ["80%", "20%"]
+        "Weights": ["80%", "20%"]
       },
       {
         "ModuleName": "Project Management",
         "ModuleCode": "CIS4126",
         "Assignment": ["CW1"],
         "Volume": ["2000 words"],
-        "weights": ["100%"]
+        "Weights": ["100%"]
       }
     ]
   },
@@ -26,16 +26,16 @@
       {
         "ModuleName": "Applied Research Dissertation in Sport, Physical Activity and Mental Health",
         "ModuleCode": "SPT4733",
-        "Assignment": ["CW1", "PR"],
+        "Assignment": ["CW", "PR"],
         "Volume": ["2000 words", "40% Pass"],
-        "weights": ["80%", "20%"]
+        "Weights": ["80%", "20%"]
       },
       {
         "ModuleName": "Mental Health Awareness for Community Sports Participants and Practitioners",
         "ModuleCode": "SPT4736",
-        "Assignment": ["CW1"],
+        "Assignment": ["CW"],
         "Volume": ["2000 words"],
-        "weights": ["100%"]
+        "Weights": ["100%"]
       }
     ]
   },
@@ -46,16 +46,16 @@
       {
         "ModuleName": "Research Philosophies and Methodologies",
         "ModuleCode": "HUM4002",
-        "Assignment": ["CW1", "PR"],
+        "Assignment": ["CW", "PR"],
         "Volume": ["3000 words", "40% Pass"],
-        "weights": ["70%", "30%"]
+        "Weights": ["70%", "30%"]
       },
       {
         "ModuleName": "Transgressive Women",
         "ModuleCode": "HUM4041",
-        "Assignment": ["CW1"],
+        "Assignment": ["CW"],
         "Volume": ["2000 words"],
-        "weights": ["100%"]
+        "Weights": ["100%"]
       }
     ]
   }
