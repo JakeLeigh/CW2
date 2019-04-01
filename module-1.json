@@ -53,7 +53,7 @@
       {
         "ModuleName": "Personal Achievements and Career Planning",
         "ModuleCode": "CYP2010",
-        "Assignment": ["CW1"],
+        "Assignment": ["CW"],
         "Volume": ["1000 words"],
         "weights": ["100%"]
       }
