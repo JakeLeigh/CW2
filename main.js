@@ -15,8 +15,6 @@ undergradBtn.addEventListener("click", function() {
   counter++;
   if (counter > 1) {
     undergradBtn.disabled = true;
-    postgradBtn.disabled = true;
-    researchBtn.disabled = true;
   }
 });
 
@@ -25,8 +23,29 @@ postgradBtn.addEventListener("click", function() {
     .get("https://raw.githubusercontent.com/JakeLeigh/CW2/master/module-2.json")
     .then(response => {
       let postgradCourses = response.data;
+      $("#table tbody tr").innerHTML = "";
       renderHTML(postgradCourses);
-    });
+    })
+    .catch(err => console.log(err));
+  counter++;
+  if (counter > 1) {
+    postgradBtn.disabled = true;
+  }
+});
+
+researchBtn.addEventListener("click", function() {
+  axios
+    .get("https://raw.githubusercontent.com/JakeLeigh/CW2/master/module-3.json")
+    .then(response => {
+      let researchProjects = response.data;
+      $("#table").remove();
+      renderResearchTHML(researchProjects);
+    })
+    .catch(err => console.log(err));
+  counter++;
+  if (counter > 1) {
+    researchBtn.disabled = true;
+  }
 });
 
 function renderHTML(courses) {
@@ -53,5 +72,19 @@ function renderHTML(courses) {
       course.Module[0].Volume + `<br>` + course.Module[1].Volume;
     weights.innerHTML =
       course.Module[0].Weights + `<br>` + course.Module[1].Weights;
+  });
+}
+
+function renderResearchTHML(courses) {
+  courses.forEach(course => {
+    console.log(course);
+    //table titles assigned
+    let titleRow = table.insertRow(0);
+    let courseTitle = titleRow.insertCell(0);
+    let courseLengthTitle = titleRow.insertCell(1);
+    let courseDepartmentTitle = titleRow.insertCell(2);
+    courseTitle = "Course Name";
+    courseLengthTitle = "Course Length";
+    courseDepartmentTitle = "Department";
   });
 }
