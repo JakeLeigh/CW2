@@ -15,7 +15,18 @@ undergradBtn.addEventListener("click", function() {
   counter++;
   if (counter > 1) {
     undergradBtn.disabled = true;
+    postgradBtn.disabled = true;
+    researchBtn.disabled = true;
   }
+});
+
+postgradBtn.addEventListener("click", function() {
+  axios
+    .get("https://raw.githubusercontent.com/JakeLeigh/CW2/master/module-2.json")
+    .then(response => {
+      let postgradCourses = response.data;
+      renderHTML(postgradCourses);
+    });
 });
 
 function renderHTML(courses) {
