@@ -8,19 +8,23 @@ undergradBtn.addEventListener("click", function() {
     .get("https://raw.githubusercontent.com/JakeLeigh/CW2/master/module-1.json")
     .then(response => {
       let undergradCourses = response.data;
-      renderCourses(undergradCourses);
-      let undergradModules = response.data.Module[1];
-      console.log(undergradModules);
-      // renderModules(undergradModules);
+      renderHTML(undergradCourses);
     })
     .catch(err => console.log(err));
 });
 
-function renderCourses(courses) {
+function renderHTML(courses) {
   courses.forEach(course => {
+    console.log(course);
     let row = table.insertRow(1);
     let courseName = row.insertCell(0);
+    let moduleNames = row.insertCell(1);
     courseName.innerHTML = course.Course;
+    moduleNames.innerHTML =
+      "-" +
+      course.Module[0].ModuleName +
+      `<br> - ` +
+      course.Module[1].ModuleName;
   });
 }
 // function renderModules(modules) {
