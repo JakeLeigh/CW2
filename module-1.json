@@ -8,14 +8,14 @@
         "ModuleCode": "SCI1106",
         "Assignment": ["CW", "EX"],
         "Volume": ["2000 words", "40% Pass"],
-        "weights": ["60%", "40%"]
+        "Weights": ["60%", "40%"]
       },
       {
         "ModuleName": "Human Body Systems",
         "ModuleCode": "SCI1114",
         "Assignment": ["CW", "EX"],
         "Volume": ["1000 words", "40% Pass"],
-        "weights": ["50%", "50%"]
+        "Weights": ["50%", "50%"]
       }
     ]
   },
@@ -28,14 +28,14 @@
         "ModuleCode": "WRI1014",
         "Assignment": ["CW"],
         "Volume": ["2000 words"],
-        "weights": ["100%"]
+        "Weights": ["100%"]
       },
       {
         "ModuleName": "Writing Short Stories",
         "ModuleCode": "WRI2024",
         "Assignment": ["CW"],
         "Volume": ["1000 words"],
-        "weights": ["100%"]
+        "Weights": ["100%"]
       }
     ]
   },
@@ -48,14 +48,14 @@
         "ModuleCode": "TLD2003",
         "Assignment": ["CW"],
         "Volume": ["2000 words"],
-        "weights": ["100%"]
+        "Weights": ["100%"]
       },
       {
         "ModuleName": "Personal Achievements and Career Planning",
         "ModuleCode": "CYP2010",
         "Assignment": ["CW"],
         "Volume": ["1000 words"],
-        "weights": ["100%"]
+        "Weights": ["100%"]
       }
     ]
   }

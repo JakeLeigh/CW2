@@ -22,6 +22,7 @@ function renderHTML(courses) {
     let moduleCodes = row.insertCell(2);
     let assignments = row.insertCell(3);
     let volumes = row.insertCell(4);
+    let weights = row.insertCell(5);
     courseName.innerHTML = course.Course;
     moduleNames.innerHTML =
       "-" +
@@ -34,10 +35,7 @@ function renderHTML(courses) {
       course.Module[0].Assignment + `<br>` + course.Module[1].Assignment;
     volumes.innerHTML =
       course.Module[0].Volume + `<br>` + course.Module[1].Volume;
+    weights.innerHTML =
+      course.Module[0].Weight + `<br>` + course.Module[1].Weight;
   });
 }
-// function renderModules(modules) {
-//   modules.forEach(module => {
-//     console.log(module);
-//   });
-// }
