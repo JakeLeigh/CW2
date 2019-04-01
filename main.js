@@ -36,6 +36,6 @@ function renderHTML(courses) {
     volumes.innerHTML =
       course.Module[0].Volume + `<br>` + course.Module[1].Volume;
     weights.innerHTML =
-      course.Module[0].Weight + `<br>` + course.Module[1].Weight;
+      course.Module[0].Weights + `<br>` + course.Module[1].Weights;
   });
 }
