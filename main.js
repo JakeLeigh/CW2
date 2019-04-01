@@ -19,12 +19,18 @@ function renderHTML(courses) {
     let row = table.insertRow(1);
     let courseName = row.insertCell(0);
     let moduleNames = row.insertCell(1);
+    let moduleCodes = row.insertCell(2);
+    let assignments = row.insertCell(3);
     courseName.innerHTML = course.Course;
     moduleNames.innerHTML =
       "-" +
       course.Module[0].ModuleName +
       `<br> - ` +
       course.Module[1].ModuleName;
+    moduleCodes.innerHTML =
+      course.Module[0].ModuleCode + `<br>` + course.Module[1].ModuleCode;
+    assignments.innerHTML =
+      course.Module[0].Assignment + `<br>` + course.Module[1].Assignment;
   });
 }
 // function renderModules(modules) {
