@@ -28,17 +28,17 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item">
-              <button id="undergrad" ><a class="nav-link" href="undergrad.html">
+              <button><a class="nav-link" href="undergrad.html">
                 Undergraduate Courses
               </a></button>
             </li>
             <li class="nav-item">
-                <button id="postgrad"><a class="nav-link" href="postgrad.html">
+                <button><a class="nav-link" href="postgrad.html">
                 Postgraduate Courses
               </a></button>
             </li>
             <li class="nav-item">
-                <button id='research'><a class="nav-link" href="research.html">
+                <button><a class="nav-link" href="research.html">
                 Research Projects
               </a></button>
             </li>
@@ -48,7 +48,10 @@
   <body>
       <div id="container">
           <div class="card">
-            <div class="card-header">Course and Module Information</div>
+            <div class="card-header" style='display: flex; justify-content: space-between'>
+              Postgraduate Course and Module Information
+              <button id='postgrad' class='btn btn-outline-success'>Get Data</button>
+            </div>
             <div class="card-body">
                 <table id='table' class="table table-striped">
                     <thead style='background-color: #671e75; color: white;' >

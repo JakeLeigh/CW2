@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>Research Projects</title>
+    <title>Web App 2</title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link
@@ -49,16 +49,19 @@
       <div id="container">
           <div class="card">
             <div class="card-header" style='display: flex; justify-content: space-between'>
-              Course and Module Information
-              <button id='research' class='btn btn-outline-success'>Get Data</button>
+              Undergraduate Course and Module Information
+              <button id='undergrad' class='btn btn-outline-success'>Get Data</button>
             </div>
             <div class="card-body">
-                <table id='table' class="table table-striped">
+                <table id='undergrad-table' class="table table-striped">
                     <thead style='background-color: #671e75; color: white;' >
                       <tr>
                         <th scope="col">Course Name</th>
-                        <th scope="col">Course Length</th>
-                        <th scope="col">Department</th>
+                        <th scope="col">Module Names</th>
+                        <th scope="col">Module Codes</th>
+                        <th scope='col'>Assignments</th>
+                        <th scope='col'>Volumes</th>
+                        <th scope='col'>Weights</th>
                       </tr>
                     </thead>
                     <tbody>
@@ -70,7 +73,6 @@
                       </tr>
                     </tbody>
                   </table>
-              <div id="module-info" />
             </div>
           </div>
         </div>
